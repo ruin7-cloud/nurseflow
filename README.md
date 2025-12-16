@@ -2,6 +2,7 @@
 
 **NurseFlow Pro** is a next-generation clinical decision support system designed to streamline nursing documentation, calculate risk scores accurately, and enhance patient safety using Generative AI.
 
+Try on Streamlit: https://nurseflow.streamlit.app
 ## 🚀 Key Features
 
 * **Hybrid AI Architecture:** Combines Google Gemini 2.5 Flash Lite with a Python-based logic engine to calculate **NEWS2 (National Early Warning Score)** mathematically, eliminating the risk of AI hallucinations in critical calculations.
