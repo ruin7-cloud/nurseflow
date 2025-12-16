@@ -1,4 +1,4 @@
-# 🩺 NurseFlow Pro: AI-Powered Clinical Handover Assistant
+# 🩺 NurseFlow: AI-Powered Clinical Handover Assistant
 
 **NurseFlow Pro** is a next-generation clinical decision support system designed to streamline nursing documentation, calculate risk scores accurately, and enhance patient safety using Generative AI.
 
