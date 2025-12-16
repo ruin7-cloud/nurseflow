@@ -20,7 +20,6 @@ class AnalysisRequest(BaseModel):
     clinical_note: str
 
 def safe_float(value):
-    """Gelen veriyi güvenli bir şekilde float'a çevirir."""
     try:
         if value is None: return 0.0
         clean_val = str(value).replace(" mmHg", "").replace("/min", "").replace("°C", "").replace(",", ".")
@@ -182,3 +181,4 @@ def analyze_public(request: AnalysisRequest, x_user_key: Optional[str] = Header(
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)
+
