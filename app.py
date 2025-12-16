@@ -109,13 +109,13 @@ except (FileNotFoundError, KeyError, Exception):
 
 if not api_key:
     with st.sidebar:
-        st.header("🔑 Giriş")
-        st.warning("Otomatik şifre bulunamadı.")
-        api_key = st.text_input("Gemini API Key Giriniz", type="password")
+        st.header("🔑 Logim")
+        st.warning("Password could not find.")
+        api_key = st.text_input("Enter Gemini 2.5 Flash Lite API", type="password")
         privacy_mode = st.toggle("Privacy Mode (GDPR)", value=True)
 else:
     with st.sidebar:
-        st.success("✅ API Key Sistemden Alındı")
+        st.success("✅ API Key took from system database")
         privacy_mode = st.toggle("Privacy Mode (GDPR)", value=True)
 
 col_input, col_output = st.columns([1, 1], gap="large")
