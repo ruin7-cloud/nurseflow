@@ -25,5 +25,17 @@
 ## 📦 How to Run
 
 1. Clone the repository:
-   ```bash
-   git clone [https://github.com/ruin7-cloud/nurseflow-pro.git](https://github.com/ruin7-cloud/nurseflow-pro.git)
+   git clone [https://github.com/ruin7-cloud/nurseflow.git](https://github.com/ruin7-cloud/nurseflow.git)
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Run the application:
+   streamlit run app.py
+
+
+
+🛡️ Disclaimer
+This project is a prototype designed for demonstration and educational purposes. Always verify clinical calculations manually in real-world scenarios.
+
+Developed by İsa Şahin - Nurse & Software Developer
